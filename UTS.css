@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.active,
+a.active {
+    color: red;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: black;
+}
+
+nav ul li .active{
+    color: rgb(252, 7, 7);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+p {
+    color:#555;
+
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-2 .pros p{
+    padding-left: 180px;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+
+.header{
+    background: radial-gradient(#fff,#383632);
+}
+
+.header .row{
+    margin-top: 70px;
+}
+.categories {
+    margin: 70px 0;
+}
+
+.col-3{
+    flex: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+    box-shadow: 0 0 60px black;
+}
+
+
+.smallcontainer{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.col-4 img{
+    width: 100%;
+
+}
+
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p{
+    font-size: 14;
+}
+
+.rating .fa{
+    color: #ff523b;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.offer{
+    background: radial-gradient(#fff, #333);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col .offer-img{
+    padding: 50px;
+}
+
+/*------------------sponsor----------------------------*/
+
+.sponsor{
+    margin: 100px auto;
+
+}
+
+.col-5{
+    width: 160px;
+}
+
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+
+}
+
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+.sponsor .smallcontainer .row .col-5 .binance{
+    height: 200px;
+    width: 300px;
+    padding-right: 100px;
+    left:auto;
+}
+
+/*-----------foooter------------*/
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1 .footer-col-2, .footer-col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+    width: 180px;
+    position: center;
+    margin-bottom: 20px;
+}
+
+.footer-cold-3{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+.footer-col-3 p{
+    color:#fff;
+}
+
+.footer-col-3 a{
+    color:#fff;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.discord{
+    margin-top: 20px;
+}
+.discord img{
+    width: 140px;
+}
+
+.footer-col-1 .discord .btn{
+    display: inline-block;
+    background: #0a093a;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.footer-col-1 .discord .btn:hover{
+    background: #555;
+}
+
+.footer-col-3 :hover{
+    color:rgb(252, 2, 2)
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px;
+}
+
+.copyright{
+    text-align:center;
+}
+
+
+/*------------------Responsive---------------*/
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;  
+    display: none; 
+}
+
+/*------------ query --------*/
+
+
+@media only screen and (max-width: 800px){
+    
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a{
+        color: #fff;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        
+    }
+     
+}
+
+/*-------- for under 600 screensize ------*/
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+
+    }
+}
+
+
+
+
+/*------------apex legends list----------------*/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select{
+    border: 1px solid #3004f3;
+    padding: 5px;
+    position: right;
+
+}
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    margin: 0 auto 80px;
+
+}
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover{
+    background: #ff523b;
+    color:#fff;
+}
